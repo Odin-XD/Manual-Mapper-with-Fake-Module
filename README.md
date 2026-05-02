@@ -16,7 +16,7 @@
 - **Proper Memory Protections**: Sets correct RWX/RX/RW permissions per section based on characteristics
 - **Cleanup**: Unmaps shellcode and data sections after execution
 
-### 7-Stage Injection Process
+###  Injection Process
 
 1. **Validation**: Checks DOS/NT signatures and architecture compatibility
 2. **Memory Allocation**: Creates RWX memory sections in target process
